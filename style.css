@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-image: url("img/yuumi.jpg");
+  padding: 10vh;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 4px 2px black;
+  box-shadow: 1px 10px 20px black;
+}
+header h1 {
+  font-size: 5vh;
+}
+header h3 {
+  -webkit-animation: h3 2s forwards;
+          animation: h3 2s forwards;
+}
+@-webkit-keyframes h3 {
+  0% {
+    transform: rotatex(180deg);
+  }
+  40% {
+    transform: translatey(30px);
+  }
+}
+@keyframes h3 {
+  0% {
+    transform: rotatex(180deg);
+  }
+  40% {
+    transform: translatey(30px);
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    padding: 40vh;
+  }
+  header h1 {
+    font-size: 15vh;
+  }
+  header h3 {
+    padding-left: 30px;
+  }
+}
+
+.sectionA {
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  background-color: #3866F4;
+  border-radius: 2vh;
+  color: white;
+  padding-bottom: 3vh;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 120vh;
+}
+.sectionA:hover {
+  transition: 1s;
+  box-shadow: 40px 30px 1px rgb(4, 18, 167);
+}
+
+.sectionB {
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  background-color: #3866F4;
+  border-radius: 2vh;
+  color: white;
+  padding-bottom: 3vh;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 100vh;
+}
+.sectionB:hover {
+  transition: 1s;
+  box-shadow: 40px 30px 1px rgb(4, 18, 167);
+}
+
+.sectionC {
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  background-color: #3866F4;
+  border-radius: 2vh;
+  color: white;
+  padding-bottom: 3vh;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 120vh;
+}
+.sectionC:hover {
+  transition: 1s;
+  box-shadow: 40px 30px 1px rgb(4, 18, 167);
+}
+
+p {
+  margin: 3vh;
+}
+
+img {
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+video {
+  padding-left: 5vh;
+}
+
+body {
+  background-color: #E5EAE4;
+}/*# sourceMappingURL=style.css.map */
